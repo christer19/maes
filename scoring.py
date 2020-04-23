@@ -50,7 +50,7 @@ def score_substep(data):
 final_data = defaultdict(float)
     
 
-# Parse files on at a time
+# Parse files one at a time
 for rfile in result_files:
     vendor = rfile.replace('.1.APT29.1_Results.json', '')
     with open(data_repo + rfile,'r') as f:
