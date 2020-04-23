@@ -1,0 +1,18 @@
+detection:
+  'Technique': 4.0
+  'Tactic': 4.0
+  'General': 2.0
+  'Telemetry': 1.0
+  'None': 0.0
+  'MSSP': 4.0
+
+modifier:
+  'Alert': 1.0
+  '': 1.0
+  'Correlated': 0.75
+  'Delayed (Processing)': 0.5
+  'Delayed (Manual)': 0.75
+  'Configuration Change (UX)': 0.0
+  'Configuration Change (Detections)': 0.0
+  'Host Interrogation': 0.75
+  'Residual Artifact': 0.25
